@@ -1054,5 +1054,24 @@
     .footer-title { font-size: 1.125rem; }
   
     .footer-link { margin-bottom: 0.3rem; }
+
+    .home-page {
+      --background-primary: hsl(210, 60%, 98%);
+      --background-secondary: hsl(210, 40%, 96%);
+    }
+    
+    body[data-page="contact"] {
+      --background-primary: hsl(350, 80%, 90%);
+      --background-secondary: hsl(350, 60%, 85%);
+    }
+    
+    .main.home-page {
+      background: linear-gradient(to right, hsl(210, 80%, 95%), hsl(210, 60%, 90%));
+    }
+    
+    .main.about-page {
+      background: linear-gradient(to right, hsl(50, 80%, 95%), hsl(50, 60%, 90%));
+    }
+    
   
   }

@@ -204,8 +204,9 @@
             <div class="blog-card">
 
               <div class="blog-card-banner">
-                <img src="blog-1.png" alt="webme"
-                  width="250" class="blog-banner-img">
+                <a href="halaman-baru.html">
+                  <img src="blog-1.png" alt="webme" width="250" class="blog-banner-img">
+                </a>
               </div>
 
               <div class="blog-content-wrapper">
@@ -213,10 +214,9 @@
                 <button class="blog-topic text-tiny">only-me</button>
 
                 <h3>
-                  <a href="#" class="h3">
-                    Room For Personality
-                  </a>
+                  <a href="halaman-baru.html" class="h3">Room For Personality</a>
                 </h3>
+                
 
                 <p class="blog-text">
                  Disini cuma ada foto-foto kegabutan saya.
@@ -579,6 +579,28 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+  <script>
+    document.getElementById("klikGambar").addEventListener("click", function() {
+      window.location.href = "halaman-baru1.html";
+    });
+  </script>
+
+<img src="blog-1.png" alt="webme" width="250" class="blog-banner-img" id="klikGambar">
+
+  <body class="light-theme home-page">
+  ...
+</body>
+
+<body class="light-theme" data-page="contact">
+  ...
+</body>
+
+<main class="main home-page">
+  ...
+</main>
+
+
 </body>
 
 </html>
