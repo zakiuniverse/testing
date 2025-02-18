@@ -1072,6 +1072,25 @@
     .main.about-page {
       background: linear-gradient(to right, hsl(50, 80%, 95%), hsl(50, 60%, 90%));
     }
+
+    .about-page {
+      --background-primary: hsl(30, 60%, 90%);
+      --background-secondary: hsl(30, 40%, 85%);
+    }
+    
+    body[data-page="contact"] {
+      --background-primary: hsl(350, 80%, 90%);
+      --background-secondary: hsl(350, 60%, 85%);
+    }
+    
+    .main.home-page {
+      background: linear-gradient(to right, hsl(210, 80%, 95%), hsl(210, 60%, 90%));
+    }
+    
+    .main.about-page {
+      background: linear-gradient(to right, hsl(50, 80%, 95%), hsl(50, 60%, 90%));
+    }
+    
     
   
   }
